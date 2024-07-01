@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="ShowcaseStyle.css">
+        <nav>
+            <div class = "wrapper">
+                <div class = "logo"><a href="#">S7BULLZ</a></div>
+                <input type="radio" name="slider" id="menu-btn">
+                <input type="radio" name="slider" id="close-btn">
+                <ul class="nav-links">
+                    <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                    <li><a href="/Main.html">Home</a></li>
+                    <li><a href="AboutPage.html">About</a></li>
+                    <li><a href="#" class="desktop-item">Meet The Dogs</a>
+                    <input type="checkbox" id="showDrop">
+                    <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                    <ul class="drop-menu">
+                        <li><a href="/CookiePage.html">COOKIE</a></li>
+                        <li><a href="/CalypsoPage.html">CALYPSO</a></li>
+                        <li><a href="/PrincessPage.html">PRINCESS</a></li>
+                    </ul>
+                </li>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </head>
+    <body>
+        <div class="thumbs">
+            <a href="#target1"><img src='/Images/Photoroom-20240502_154257.png' alt=''></a>
+            <a href="#target2"><img src='/Images/Photoroom-20240210_155323.png' alt=''></a>
+            <a href="#target3"><img src='/Images/Photoroom-20240528_025757.png' alt=''></a>
+            <a href="#target4"><img src='/Images/PicRetouch_20240609_074405404.jpeg' alt=''></a>
+            <a href="#target5"><img src='/Images/Photoroom-20240513_111725.png' alt=''></a>
+            <a href="#target6"><img src='/Images/Photoroom-20240513_113154.png' alt=''></a>
+            
+          </div>
+          
+          <div class="lightbox">
+            <div class="target" id="target1">
+              <span>
+                <!-- spacer to keep content centered in the flex container -->
+              </span>
+              <div class="image-content">
+                <img src='/Images/Photoroom-20240502_154257.png' alt=''>
+              </div>
+              <a href="#target2" class="fas fa-chevron-right nav" title="next"></a>
+            </div>
+            
+            <div class="target" id="target2">
+              <a href="#target1" class="fas fa-chevron-left nav" title="previous"></a>
+              <div class="image-content"><img src='/Images/Photoroom-20240210_155323.png' alt=''></div>
+              <a href="#target3" class="fas fa-chevron-right nav" title="next"></a>
+            </div>
+
+            <div class="target" id="target3">
+              <a href="#target2" class="fas fa-chevron-left nav" title="previous"></a>
+              <div class="image-content"><img src='/Images/Photoroom-20240528_025757.png' alt=''></div>
+              
+              
+              <span>
+                <!-- spacer to keep content centered in the flex container -->
+              </span>
+            </div>
+            <a href="#!" class="fas fa-times close nav">x</a>
+          </div>
+    </body>
+</html>
