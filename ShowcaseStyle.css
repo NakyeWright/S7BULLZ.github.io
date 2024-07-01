@@ -220,7 +220,7 @@ html,body {
     display: block;
     /* align-items:center; */
     justify-content:center;
-    background-image:url(/Images/Stock/pexels-vincent-gerbouin-445991-2263686.jpg);
+    background-image:url(./Images/Stock/pexels-vincent-gerbouin-445991-2263686.jpg);
 
     background-size:cover;
     background-repeat: no-repeat;
