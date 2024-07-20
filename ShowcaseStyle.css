@@ -220,10 +220,10 @@ html,body {
     display: block;
     /* align-items:center; */
     justify-content:center;
-    background-image:url(./Images/Stock/pexels-vincent-gerbouin-445991-2263686.jpg);
+    background-image:url(./Images/Stock/seamless-1082986_1920.jpg);
 
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-size:contain;
+    background-repeat: repeat;
   }
   /* * thumbnails */
   .thumbs {
@@ -385,7 +385,7 @@ html,body {
 }
 .Centered-Section p
 {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 
@@ -417,18 +417,20 @@ html,body {
 
 .Home-Intro p
 {
-  margin-top: 40px;
-  text-align: center;
+  margin-top: 45px;
+  text-align: left;
 }
 
 
 .Social_Media_Nav
 {
-  display: flex;
-  padding: 3vh;
-  margin-top: 5vh;
 
-  background-color: #242526;
+  display: flex;
+  padding: 2vh;
+  bottom: -10vh;
+  left: 0;
+
+  background-color: black;
 
   width: 100%;
   height: 100px;
