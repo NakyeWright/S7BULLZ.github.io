@@ -220,7 +220,7 @@ html,body {
     display: block;
     /* align-items:center; */
     justify-content:center;
-    background-image:url(./Images/Stock/seamless-1082986_1920.jpg);
+    background-image:url(./Stock/seamless-1082986_1920.jpg);
 
     background-size:contain;
     background-repeat: repeat;
