@@ -220,7 +220,7 @@ html,body {
     display: block;
     /* align-items:center; */
     justify-content:center;
-    background-image:url(./Stock/seamless-1082986_1920.jpg);
+    background-color: black;
 
     background-size:contain;
     background-repeat: repeat;
@@ -396,13 +396,14 @@ html,body {
 
   display: block;
 
-  margin-top: 5vh;
+  margin-top: 25vh;
   margin-left: 20vh;
   margin-right: 20vh;
 
   padding: 3vh;
 
-  font-size: 25px;
+  font-size: 3vh;
+  line-height: 4.5vh;
 
   overflow: auto;
   max-height: 100%;
@@ -427,6 +428,8 @@ html,body {
 
   display: flex;
   padding: 2vh;
+
+  margin-top: 10vh;
   bottom: -10vh;
   left: 0;
 
@@ -440,16 +443,31 @@ html,body {
     color: #f2f2f2;
   }
 
+  a
+  {
+    margin-left: 75%;
+    text-decoration: none;
+  }
+  a:visited
+  {
+    text-decoration: none;
+  }
+  a:hover
+  {
+    text-decoration: none;
+  }
+
   img{
-    margin-left: 70%;
     width: 50px;
     height: 50px;
-    
-
   }
   .p2{
     font-size: 25px;
+
     color: #f2f2f2;
-    margin-left: 15px;
+
+    margin-left: 70%;
+    margin-top: -45%;
   }
 }
+
